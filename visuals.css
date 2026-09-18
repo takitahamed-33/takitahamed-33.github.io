@@ -19,6 +19,7 @@
 .internship-layout { align-items:start; }
 .internship-copy { padding-top:24px; }
 .reveal { opacity:1; transform:none; }
+.about-portrait { display:block; width:112px; height:112px; max-width:112px; object-fit:cover; border-radius:50%; border:3px solid #ffffff80; margin:0 0 24px; }
 @keyframes cell-drift { 50% { transform:translateY(-7px) rotate(1deg); } }
 @media(max-width:900px) { .hero { grid-template-columns:1fr; } .cell-hero { max-width:540px; width:100%; justify-self:center; } }
 @media(max-width:480px) { .hero { padding-block:44px; gap:32px; } .cell-hero { padding:20px; } .structure-figure { padding:14px; } }
