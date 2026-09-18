@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Conceptual cellular state atlas visual</title>
+  <desc id="desc">A stylized map of cell states linking stress, DNA damage, senescence and recovery.</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6f1e9"/><stop offset="1" stop-color="#eef6f2"/></linearGradient>
+    <filter id="s"><feDropShadow dx="0" dy="15" stdDeviation="18" flood-opacity="0.09"/></filter>
+  </defs>
+  <rect width="1200" height="760" rx="44" fill="url(#bg2)"/>
+  <g transform="translate(110 125)" filter="url(#s)">
+    <rect width="660" height="500" rx="32" fill="#fff" stroke="#dedfd8"/>
+    <text x="46" y="58" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#16382e">Cell-state landscape</text>
+    <text x="46" y="86" font-family="Arial,sans-serif" font-size="13" fill="#6a746e">conceptual visualization — not experimental data</text>
+    <g opacity="0.95">
+      <circle cx="170" cy="185" r="15" fill="#2f8067"/><circle cx="208" cy="156" r="11" fill="#2f8067"/><circle cx="230" cy="200" r="13" fill="#2f8067"/><circle cx="142" cy="231" r="10" fill="#2f8067"/><circle cx="251" cy="241" r="12" fill="#2f8067"/>
+      <circle cx="356" cy="207" r="14" fill="#d7974f"/><circle cx="401" cy="178" r="10" fill="#d7974f"/><circle cx="419" cy="230" r="13" fill="#d7974f"/><circle cx="339" cy="259" r="11" fill="#d7974f"/><circle cx="448" cy="282" r="12" fill="#d7974f"/>
+      <circle cx="484" cy="368" r="15" fill="#8c6bb1"/><circle cx="530" cy="345" r="11" fill="#8c6bb1"/><circle cx="559" cy="400" r="14" fill="#8c6bb1"/><circle cx="457" cy="420" r="10" fill="#8c6bb1"/><circle cx="525" cy="451" r="12" fill="#8c6bb1"/>
+      <circle cx="245" cy="378" r="14" fill="#5998b8"/><circle cx="290" cy="353" r="10" fill="#5998b8"/><circle cx="316" cy="408" r="13" fill="#5998b8"/><circle cx="216" cy="427" r="11" fill="#5998b8"/><circle cx="281" cy="459" r="12" fill="#5998b8"/>
+    </g>
+    <g font-family="Arial,sans-serif" font-size="13" fill="#59665f">
+      <text x="116" y="290">baseline / proliferative</text>
+      <text x="330" y="315">stress response</text>
+      <text x="444" y="495">persistent senescence-like</text>
+      <text x="193" y="505">recovery-competent</text>
+    </g>
+    <g stroke="#aebbb4" stroke-width="2.5" fill="none" stroke-dasharray="7 8">
+      <path d="M272 205 C320 185 326 190 345 202"/><path d="M444 287 C482 310 495 330 502 349"/><path d="M440 369 C390 365 357 374 317 393"/>
+    </g>
+  </g>
+  <g transform="translate(835 150)" font-family="Arial,sans-serif">
+    <text x="0" y="0" font-size="15" letter-spacing="2" font-weight="700" fill="#2f8067">RESEARCH THEMES</text>
+    <text x="0" y="55" font-size="31" font-weight="700" fill="#16382e">When is a stressed</text>
+    <text x="0" y="92" font-size="31" font-weight="700" fill="#16382e">cell still recoverable?</text>
+    <g transform="translate(0 145)">
+      <rect width="275" height="74" rx="19" fill="#fff" stroke="#dedfd8"/>
+      <text x="24" y="32" font-size="15" font-weight="700" fill="#16382e">Persistent DNA damage</text><text x="24" y="54" font-size="12" fill="#69766f">DDR persistence and state history</text>
+    </g>
+    <g transform="translate(0 240)">
+      <rect width="275" height="74" rx="19" fill="#fff" stroke="#dedfd8"/>
+      <text x="24" y="32" font-size="15" font-weight="700" fill="#16382e">Cellular senescence</text><text x="24" y="54" font-size="12" fill="#69766f">durable arrest and phenotype context</text>
+    </g>
+    <g transform="translate(0 335)">
+      <rect width="275" height="74" rx="19" fill="#fff" stroke="#dedfd8"/>
+      <text x="24" y="32" font-size="15" font-weight="700" fill="#16382e">Functional restoration</text><text x="24" y="54" font-size="12" fill="#69766f">state-dependent recovery hypotheses</text>
+    </g>
+  </g>
+</svg>
