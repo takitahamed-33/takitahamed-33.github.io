@@ -43,7 +43,6 @@ The public website intentionally avoids unpublished compound rankings, internal 
 - `index.html` — website content
 - `styles.css` — layout and appearance
 - `script.js` — mobile menu, dark mode, reveal effects
-- `md-takit-ahamed.webp` — portrait
 - `MD_Takit_Ahamed_CV.pdf` — CV
 - `apc-cdc20-visual.svg` — conceptual internship visual
 - `state-atlas-visual.svg` — conceptual aging and cellular state visual
