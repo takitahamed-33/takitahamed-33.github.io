@@ -44,7 +44,7 @@
       <rect width="290" height="102" rx="24" fill="#fff" stroke="#d6e2dc"/>
       <circle cx="49" cy="51" r="24" fill="#f8ede0"/>
       <path d="M38 39 h22 v24 h-22z M43 34 h12" fill="none" stroke="#b56d2d" stroke-width="4" stroke-linecap="round"/>
-      <text x="88" y="45" font-size="18" font-weight="700" fill="#16382e">ADMET & safety</text>
+      <text x="88" y="45" font-size="18" font-weight="700" fill="#16382e">ADMET &amp; safety</text>
       <text x="88" y="69" font-size="14" fill="#64736d">predicted pharmacology and liabilities</text>
     </g>
     <g transform="translate(790 425)">
